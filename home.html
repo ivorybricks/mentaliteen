@@ -5,18 +5,46 @@
 <style>
 div.header {
   background-color: #cfe4de;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial Black", Gadget, sans-serif;
   color: black;
   font-size: xx-large;
   text-align: center;
   padding: 100px;
-  
+}
+.nav {
+  background-color: #4e5e73;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 15px;
+}
+.nav a:hover {
+  background-color: #7db5ba;
+  color: #dcdcdc;
+}
+.main {
+  margin-top: 30px;
 }
 </style>
 </head>
 <body>
 <div class="header">
-<h>Mentaliteen</h>
-  </div>
+  <h>Mentaliteen</h>
+</div>
+<div class="nav" id="myTopNav">
+  <a href="#depression">Depression</a>
+  <a href="#anxiety">Anxiety</a>
+  <a href="#adhd">ADHD</a>
+  <a href="#autism">Autism</a>
+  <a href="#bipolar">Bipolar</a>
+</div>
 </body>
 </html>
