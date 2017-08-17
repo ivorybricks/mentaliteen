@@ -74,6 +74,7 @@ table.help {
   width: 100%;
   margin: 0 auto;
   align: center;
+  text-align: left;
 }
 
 table#do {
