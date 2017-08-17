@@ -2,49 +2,77 @@
 <html>
 <head>
 <title>Mentaliteen: Supporting Teens with Mental Illness</title>
-<style>
-div.header {
-  background-color: #cfe4de;
-  font-family: "Arial Black", Gadget, sans-serif;
-  color: black;
-  font-size: xx-large;
-  text-align: center;
-  padding: 100px;
-}
-.nav {
-  background-color: #4e5e73;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 15px;
-  font-size: 15px;
-}
-.nav a:hover {
-  background-color: #7db5ba;
-  color: #dcdcdc;
-}
-.main {
-  margin-top: 30px;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+    <!-- Links to the Javascript file -->
+    <script src="script.js"></script>
+
+    <!-- Links to the CSS file -->
+	<link rel="stylesheet" href="stylesheet.css">
+
+
 </head>
 <body>
 <div class="header">
   <h>Mentaliteen</h>
 </div>
-<div class="nav" id="myTopNav">
-  <a href="#depression">Depression</a>
-  <a href="#anxiety">Anxiety</a>
-  <a href="#adhd">ADHD</a>
-  <a href="#autism">Autism</a>
-  <a href="#bipolar">Bipolar</a>
+
+<div class="nav">
+	<a href="/mentaliteen/depression.html">Depression</a>
+	
+	<a href="/mentaliteen/anxiety.html">Anxiety</a>
+	
+	<a href="/mentaliteen/adhd.html">ADHD</a>
+	
+	<a href="/mentaliteen/autism.html">Autism</a>
+	
+	<a href="/mentaliteen/bipolar.html">Bipolar</a>
+	
 </div>
+	
+
+<div class="disclaimer">
+  <p><span class="glyphicon glyphicon-exclamation-sign" style="color:#ed6a6a; padding:5px"></span><b>Disclaimer:</b> This website is not intended to replace professional guidance or serve to diagnose mental illness.</p>
+</div>
+<div class="about">
+    <p>This is where our info about our website will go. It will describe why we created the website and what it should be used for and other stuff like that.</p>
+</div>
+<div style ="overflow-x:auto;">
+      <table style="width:100%; margin: auto">
+      <colgroup>
+	      <col style="background-color:green">
+	      <col style="background-color:red">
+	      </colgroup>
+      <vertical-align: middle>
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Do's</th>
+          <th>Dont's</th>
+        </tr>
+          
+        <tr>
+            <td id="do">first example for do</td>
+            <td id="dont">first example for dont</td>
+        </tr>
+          
+        <tr>
+            <td>second example for do</td>
+            <td>second example for dont</td>
+        </tr>
+       
+      </table>
+      
+    </div>
+<div>
+	<h1 style="text-align:center; padding:10px; font-size:35px;">Resources</h1>
+	<ul style="text-align:center;">
+		<li><a href="#">Website Name</a></li>
+	</ul>
+	</div>
 </body>
 </html>
