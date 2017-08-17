@@ -99,3 +99,8 @@ td {
 th {
   text-align: center;
 }
+
+caption {
+  text-align: center;
+  font-weight: bold;
+}
