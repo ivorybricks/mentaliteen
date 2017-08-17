@@ -32,8 +32,8 @@
 .disclaimer {
   background-color: #ffbebe;
   color: black;
-  padding: 10px 50px;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .about {
