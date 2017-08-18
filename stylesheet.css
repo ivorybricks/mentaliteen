@@ -149,4 +149,7 @@ a:active {
 footer {
   padding-left: 30px;
   background-color: #cfe4de;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 45px;
 }
