@@ -82,6 +82,7 @@ caption {
 /* The .illnessHeader is also used across different pages FYI */
   .illnessHeader{
    padding-bottom: 2rem; 
+    text-align: center;
   }
 
   .symptomsImgDiv{
