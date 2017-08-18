@@ -32,7 +32,7 @@
 .disclaimer {
   background-color: #ffbebe;
   color: black;
-  padding: 10px 50px;
+  padding: 5px;
 }
 
 .about {
@@ -74,6 +74,7 @@ table.help {
   width: 100%;
   margin: 0 auto;
   align: center;
+  text-align: left;
 }
 
 table#do {
@@ -88,10 +89,19 @@ table, th, td{
         border: 2px solid black;
         border-collapse: collapse;
         padding: 15px;
-        text-align: center;
         vertical-align: middle;
         color: black;
       }
-      th  {
-        background-color: green;
-      }
+td {
+  text-align: left;
+  list-style-position: inside;
+}
+th {
+  text-align: center;
+}
+
+caption {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
