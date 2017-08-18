@@ -2,20 +2,20 @@
   background-color: #cfe4de;
   font-family: "Arial Black", Gadget, sans-serif;
   color: black;
-  font-size: 70px;
+  font-size: 11rem;
   text-align: center;
   padding: 50px;
   position: static;
 }
 
-.nav {
+div.nav {
   background-color: #4e5e73;
   overflow: hidden;
   position: static;
   width: 100%;
 }
 
-.nav a {
+div.nav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -24,9 +24,9 @@
   font-size: 15px;
 }
 
-.nav a:hover {
+div.nav a:hover {
   background-color: #7db5ba;
-  color: #dcdcdc;
+  color: black;
 }
 
 .disclaimer {
@@ -39,35 +39,6 @@
   background-color: #e9f4f1;
   color: black;
   padding: 25px 75px;
-}
-
-
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.428571429;
-  border-radius: 15px;
-}
-
-.btn-circle.btn-lg {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 25px;
-}
-
-.btn-circle.btn-xl {
-  width: 70px;
-  height: 70px;
-  padding: 10px 16px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 35px;
 }
 
 table.help {
@@ -91,11 +62,13 @@ table, th, td{
         padding: 15px;
         vertical-align: middle;
         color: black;
-      }
+}
+
 td {
   text-align: left;
   list-style-position: inside;
 }
+
 th {
   text-align: center;
 }
@@ -104,4 +77,85 @@ caption {
   text-align: center;
   font-weight: bold;
   color: black;
+}
+
+.bottomHeader{
+  text-align:center;
+  padding-bottom:1rem;
+}
+
+/* CSS FOR THE BUTTONS PAGE
+ */
+
+/* The .illnessHeader is also used across different pages FYI */
+  .illnessHeader{
+    font-size:6rem;
+   padding-bottom: 2rem; 
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptomsImgDiv{
+    margin: 0 auto 0 auto; 
+    text-align:center;
+  }
+
+  .symptomsImg{
+    width: 20%; 
+    font-size: 2rem; 
+    align="middle";
+  }
+
+  .lowerBtnsDiv{
+    padding-top: 6rem; 
+    padding-bottom:6rem;
+    text-align:center;
+  }
+
+  .lowerBtns{
+    font-size: 2rem; 
+    background-color:#7db5ba; 
+    color:#4e5e73;
+  }
+
+  
+
+
+<!-- Link styling below -->
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.sources {
+  margin-left: 15px;
+}
+
+footer {
+  padding-left: 30px;
+  background-color: #cfe4de;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 45px;
 }
