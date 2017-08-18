@@ -13,10 +13,9 @@
   overflow: hidden;
   position: static;
   width: 100%;
-  color: #dcdcdc;
 }
 
-.nav a {
+a.nav {
   float: left;
   display: block;
   color: #f2f2f2;
