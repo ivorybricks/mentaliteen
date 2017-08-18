@@ -79,6 +79,11 @@ caption {
   color: black;
 }
 
+.bottomHeader{
+  text-align:center;
+  padding-bottom:1rem;
+}
+
 /* CSS FOR THE BUTTONS PAGE
  */
 
