@@ -40,6 +40,7 @@ div.nav a:hover {
   color: black;
   padding: 25px 75px;
 }
+
 table.help {
   width: 100%;
   margin: 0 auto;
@@ -61,11 +62,13 @@ table, th, td{
         padding: 15px;
         vertical-align: middle;
         color: black;
-      }
+}
+
 td {
   text-align: left;
   list-style-position: inside;
 }
+
 th {
   text-align: center;
 }
