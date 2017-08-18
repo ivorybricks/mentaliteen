@@ -89,6 +89,7 @@ caption {
 
 /* The .illnessHeader is also used across different pages FYI */
   .illnessHeader{
+    font-size:6rem;
    padding-bottom: 2rem; 
     text-align: center;
     font-weight: bold;
