@@ -159,3 +159,13 @@ footer {
   padding-bottom: 5px;
   padding-right: 45px;
 }
+
+
+div.ugh {
+  text-align: center;
+}
+
+div.ugh ul {
+  display: inline-block;
+  text-align: center;
+}
