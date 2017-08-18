@@ -1,50 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mentaliteen: Supporting Teens with Mental Illness</title>
-<style>
-div.header {
-  background-color: #cfe4de;
-  font-family: "Arial Black", Gadget, sans-serif;
-  color: black;
-  font-size: xx-large;
-  text-align: center;
-  padding: 100px;
-}
-.nav {
-  background-color: #4e5e73;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.nav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 15px 15px;
-  font-size: 15px;
-}
-.nav a:hover {
-  background-color: #7db5ba;
-  color: #dcdcdc;
-}
-.main {
-  margin-top: 30px;
-}
-</style>
+<title>Mentaliteen | Supporting Teens with Mental Illness</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+    <!-- Links to the Javascript file -->
+    <script src="script.js"></script>
+
+    <!-- Links to the CSS file -->
+	<link rel="stylesheet" href="stylesheet.css">
+
+
 </head>
 <body>
-<div class="header">
+<div class="header"><a href="/mentaliteen/home.html">
   <h>Mentaliteen</h>
+</a>
 </div>
-<div class="nav" id="myTopNav">
-  <a href="#depression">Depression</a>
-  <a href="#anxiety">Anxiety</a>
-  <a href="#adhd">ADHD</a>
-  <a href="#autism">Autism</a>
-  <a href="#bipolar">Bipolar</a>
+
+<div class="nav">
+	<a href="/mentaliteen/depression.html">Depression</a>
+	
+	<a href="/mentaliteen/anxiety.html">Anxiety</a>
+	
+	<a href="/mentaliteen/adhd/adhd.html">ADHD</a>
+	
+	<a href="/mentaliteen/autism.html">Autism</a>
+	
+	<a href="/mentaliteen/bipolar.html">Bipolar</a>
+	
 </div>
+	
+
+<div class="disclaimer">
+  <p style="text-align:center; vertical-align:middle; margin:5px"><span class="glyphicon glyphicon-exclamation-sign" style="color:#ed6a6a; padding-right:5px;"></span><b>Disclaimer:</b> This website is not intended to replace professional guidance or serve to diagnose mental illness.</p>
+</div>
+<div class="about">
+    <p>This is where our info about our website will go. It will describe why we created the website and what it should be used for and other stuff like that.</p>
+</div>
+<div style ="overflow-x:auto;">
+      <table align="center" cellpadding="5px">
+	      <caption>General Do's and Don't's of Mental Illness</caption>
+      <colgroup>
+	      <col style="background-color:#B6FD9D">
+	      <col style="background-color:#ffbebe">
+	      </colgroup>
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Do:</th>
+          <th>Don't:</th>
+        </tr>
+          
+        <tr text-align="left" list-style-position="inside">
+            <td id="do">
+		    <ul>
+			    <li>first example for do</li>
+			    <li>second example</li>
+		    </ul>
+	    </td>
+            <td id="dont">
+		    <ul>
+			    <li>first example for dont</li>
+			    <li>second example</li>
+		    </ul>
+	    </td>
+        </tr>
+
+       
+      </table>
+	
+      
+    </div>
+<div style="text-align:center; list-style-position:inside">
+	<h1 style="padding:10px; font-size:35px;">Resources</h1>
+	<ul>
+		<li><a href="#">Website Name</a></li>
+	</ul>
+	</div>
+<footer>
+	<a href="/mentaliteen/sources.html">Sources</a>
+</footer>
 </body>
 </html>

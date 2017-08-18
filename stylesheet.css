@@ -1,0 +1,161 @@
+.header {
+  background-color: #cfe4de;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: black;
+  font-size: 11rem;
+  text-align: center;
+  padding: 50px;
+  position: static;
+}
+
+div.nav {
+  background-color: #4e5e73;
+  overflow: hidden;
+  position: static;
+  width: 100%;
+}
+
+div.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 15px;
+}
+
+div.nav a:hover {
+  background-color: #7db5ba;
+  color: black;
+}
+
+.disclaimer {
+  background-color: #ffbebe;
+  color: black;
+  padding: 5px;
+}
+
+.about {
+  background-color: #e9f4f1;
+  color: black;
+  padding: 25px 75px;
+}
+
+table.help {
+  width: 100%;
+  margin: 0 auto;
+  align: center;
+  text-align: left;
+}
+
+table#do {
+  background-color:#B6FD9D;
+}
+
+table#dont {
+  background-color: #ffbebe;
+}
+
+table, th, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+        vertical-align: middle;
+        color: black;
+}
+
+td {
+  text-align: left;
+  list-style-position: inside;
+}
+
+th {
+  text-align: center;
+}
+
+caption {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.bottomHeader{
+  text-align:center;
+  padding-bottom:1rem;
+}
+
+/* CSS FOR THE BUTTONS PAGE
+ */
+
+/* The .illnessHeader is also used across different pages FYI */
+  .illnessHeader{
+    font-size:6rem;
+   padding-bottom: 2rem; 
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .symptomsImgDiv{
+    margin: 0 auto 0 auto; 
+    text-align:center;
+  }
+
+  .symptomsImg{
+    width: 20%; 
+    font-size: 2rem; 
+    align="middle";
+  }
+
+  .lowerBtnsDiv{
+    padding-top: 6rem; 
+    padding-bottom:6rem;
+    text-align:center;
+  }
+
+  .lowerBtns{
+    font-size: 2rem; 
+    background-color:#7db5ba; 
+    color:#4e5e73;
+  }
+
+  
+
+
+<!-- Link styling below -->
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.sources {
+  margin-left: 15px;
+}
+
+footer {
+  padding-left: 30px;
+  background-color: #cfe4de;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 45px;
+}
