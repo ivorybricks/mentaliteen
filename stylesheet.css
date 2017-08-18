@@ -13,6 +13,7 @@
   overflow: hidden;
   position: static;
   width: 100%;
+  color: #dcdcdc;
 }
 
 .nav a {
@@ -26,7 +27,7 @@
 
 .nav a:hover {
   background-color: #7db5ba;
-  color: #dcdcdc;
+  color: black;
 }
 
 .disclaimer {
