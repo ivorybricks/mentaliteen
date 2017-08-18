@@ -83,6 +83,7 @@ caption {
   .illnessHeader{
    padding-bottom: 2rem; 
     text-align: center;
+    font-weight: bold;
   }
 
   .symptomsImgDiv{
