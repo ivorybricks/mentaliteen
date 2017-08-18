@@ -79,31 +79,32 @@ caption {
 /* CSS FOR THE BUTTONS PAGE
  */
 
-.adhdHeader{
- padding-bottom: 2rem; 
-}
+/* The .illnessHeader is also used across different pages FYI */
+  .illnessHeader{
+   padding-bottom: 2rem; 
+  }
 
-.symptomsImgDiv{
-  margin: 0 auto 0 auto; 
-  text-align:center;
-}
+  .symptomsImgDiv{
+    margin: 0 auto 0 auto; 
+    text-align:center;
+  }
 
-.symptomsImg{
-  width: 20%; 
-  font-size: 2rem; 
-  align="middle";
-}
+  .symptomsImg{
+    width: 20%; 
+    font-size: 2rem; 
+    align="middle";
+  }
 
-.lowerBtnsDiv{
-  padding-top: 6rem; 
-  padding-bottom:6rem;
-  
-}
+  .lowerBtnsDiv{
+    padding-top: 6rem; 
+    padding-bottom:6rem;
 
-.lowerBtns{
-  font-size: 2rem; 
-  background-color:#7db5ba; 
-  color:#4e5e73;
-}
-  
-}
+  }
+
+  .lowerBtns{
+    font-size: 2rem; 
+    background-color:#7db5ba; 
+    color:#4e5e73;
+  }
+
+  }
