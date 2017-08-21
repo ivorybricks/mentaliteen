@@ -164,7 +164,7 @@ footer {
 }
 
 a.resource:link {
-  color: #0000ff;
+  color: #ff0000;
   text-decoration: underline;
 }
 a.resource:visited {
