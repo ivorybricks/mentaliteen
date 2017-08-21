@@ -24,7 +24,7 @@
   font-size: 15px;
 }
 
-.nav a:hover {
+nav.nav a:hover {
   background-color: #7db5ba;
   color: black;
 }
