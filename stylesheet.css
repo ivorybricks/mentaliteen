@@ -8,14 +8,14 @@
   position: static;
 }
 
-div.nav {
+.nav {
   background-color: #4e5e73;
   overflow: hidden;
   position: static;
   width: 100%;
 }
 
-div.nav a {
+.nav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -24,7 +24,7 @@ div.nav a {
   font-size: 15px;
 }
 
-div.nav a:hover {
+.nav a:hover {
   background-color: #7db5ba;
   color: black;
 }
