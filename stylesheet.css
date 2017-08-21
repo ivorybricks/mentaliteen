@@ -60,7 +60,7 @@ table, th, td{
         border: 2px solid black;
         border-collapse: collapse;
         padding: 15px;
-        vertical-align: middle;
+        vertical-align: top;
         color: black;
         align: center;
         text-align: left;
