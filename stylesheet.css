@@ -126,13 +126,13 @@ caption {
 <!-- Link styling below -->
 
 a:link {
-    color: black; 
+    color: white; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
