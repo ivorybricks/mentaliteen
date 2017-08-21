@@ -163,5 +163,16 @@ footer {
   padding-right: 45px;
 }
 
-
+a.resource:link {
+  color: #0000ff;
+  text-decoration: underline;
+}
+a.resource:visited {
+  color: #551A8B;
+  text-decoration: underline;
+}
+a.resource:hover {
+  color: #EE0000;
+  text-decoration: underline;
+}
 
