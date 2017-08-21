@@ -176,3 +176,13 @@ a.resource:hover {
   text-decoration: underline;
 }
 
+<!-- fix nav bar to top when scrolling-->
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
