@@ -188,10 +188,10 @@ a:active {
   margin-left: 15px;
 }
 
-.footer {
+footer {
   margin-top: 50px;
   padding-left: 30px;
-  background-color: #cfe4de;
+  background-color: blue;
   padding-top: 5px;
   padding-bottom: 5px;
   align: left;
