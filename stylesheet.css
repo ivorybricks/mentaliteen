@@ -1,3 +1,8 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
 .header {
   background-color: #cfe4de;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -22,6 +27,7 @@ div.nav {
   overflow: hidden;
   position: static;
   width: 100%;
+  font-size: 18px;
 }
 
 div.nav a {
@@ -30,7 +36,7 @@ div.nav a {
   color: #f2f2f2;
   text-align: center;
   padding: 15px 15px;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -44,12 +50,14 @@ div.nav a:hover {
   background-color: #ffbebe;
   color: black;
   padding: 5px;
+  font-size: 18px;
 }
 
 .about {
   background-color: #e9f4f1;
   color: black;
   padding: 25px 150px;
+  font-size: 18px;
 }
 
 table.help {
