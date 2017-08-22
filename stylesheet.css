@@ -108,20 +108,27 @@ caption {
     align="middle";
   }
 
-  .lowerBtnsDiv{
+  .signsImgDiv{
     padding-top: 6rem; 
     padding-bottom:6rem;
     text-align:center;
   }
 
-  .lowerBtns{
+  .signsImg{
     font-size: 2rem; 
-    background-color:#7db5ba; 
+    background-color:#882; 
     color:#4e5e73;
   }
 
-  
-
+  .howtohelpImgDiv{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align:center;
+  }
+  .howtohelpImg{
+    font-size: 2rem;
+    background-color:#164;
+    color:#4e5e73;
 
 <!-- Link styling below -->
 
