@@ -198,15 +198,7 @@ footer {
   align: left;
 }
     
-.footer a {
-  color: blue;
-    }
-.footer a:hover {
-  color: red;
-    }
-.footer a:visited {
-  color: purple;
-    }
+
     
     
 a.resource:link {
