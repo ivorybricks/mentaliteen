@@ -116,47 +116,47 @@ caption {
  */
 
 /* The .illnessHeader is also used across different pages FYI */
-  .illnessHeader{
+ .illnessHeader{
     font-size:6rem;
-   padding-bottom: 2rem; 
+    padding-bottom: 2rem; 
     text-align: center;
     font-weight: bold;
   }
 
-  .symptomsImgDiv{
+ .symptomsImgDiv{
     margin: 0 auto 0 auto; 
     text-align:center;
   }
 
-  .symptomsImg{
+ .symptomsImg{
     width: 15%; 
     font-size: 2rem; 
     align="middle";
   }
 
-  .signsImgDiv{
+ .signsImgDiv{
     padding-top: 6rem; 
     padding-bottom:6rem;
     text-align:center;
   }
 
-  .signsImg{
+ .signsImg{
     font-size: 2rem; 
     background-color:#882; 
     color:#4e5e73;
   }
 
-  .lowerBtns{
+ .lowerBtns{
     font-size:2rem;
-  margin-bottom:2rem;    
+    margin-bottom:2rem;    
 }
 
-  .howtohelpImgDiv{
+ .howtohelpImgDiv{
     padding-top: 6rem;
     padding-bottom: 6rem;
     text-align:center;
   }
-  .howtohelpImg{
+ .howtohelpImg{
     font-size: 2rem;
     background-color:#164;
     color:#4e5e73;
@@ -188,7 +188,7 @@ a:active {
   margin-left: 15px;
 }
 
-.page-footer {
+.footer {
   margin-top: 50px;
   padding-left: 30px;
   background-color: #cfe4de;
@@ -213,13 +213,4 @@ a.resource:hover {
   text-decoration: underline;
 }
 
-<!-- fix nav bar to top when scrolling-->
 
-.affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
