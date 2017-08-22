@@ -13,6 +13,12 @@ html {
   position: static;
 }
 
+caption {
+  font-size: 1 rem;
+}
+
+
+
 .header a{
   color: black;
   text-decoration: none;
@@ -83,6 +89,7 @@ table, th, td{
         color: black;
         align: center;
         text-align: left;
+        font-size: 1rem;
 }
 
 td {
