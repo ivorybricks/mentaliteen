@@ -197,13 +197,13 @@ footer {
   padding-right: 45px;
 }
     
-footer a {
+.footer a {
   color: blue;
     }
-footer a:hover {
+.footer a:hover {
   color: red;
     }
-footer a:visited {
+.footer a:visited {
   color: purple;
     }
     
