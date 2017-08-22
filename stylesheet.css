@@ -1,6 +1,6 @@
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .header {
@@ -27,7 +27,7 @@ div.nav {
   overflow: hidden;
   position: static;
   width: 100%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 div.nav a {
@@ -36,7 +36,7 @@ div.nav a {
   color: #f2f2f2;
   text-align: center;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ div.nav a:hover {
   background-color: #e9f4f1;
   color: black;
   padding: 25px 150px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 table.help {
