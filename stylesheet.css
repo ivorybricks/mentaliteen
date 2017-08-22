@@ -120,6 +120,12 @@ caption {
     color:#4e5e73;
   }
 
+  .lowerBtns{
+    font-size:2rem;
+    color:black
+    
+}
+
   .howtohelpImgDiv{
     padding-top: 6rem;
     padding-bottom: 6rem;
