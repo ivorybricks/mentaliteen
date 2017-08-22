@@ -22,11 +22,13 @@ div.nav a {
   text-align: center;
   padding: 15px 15px;
   font-size: 15px;
+  text-decoration: none;
 }
 
 div.nav a:hover {
   background-color: #7db5ba;
   color: black;
+  text-decoration: none;
 }
 
 .disclaimer {
